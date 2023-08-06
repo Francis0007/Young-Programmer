@@ -1,59 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto&display=swap" rel="stylesheet">
-    <title>Young Programmer</title>
-  </head>
-  <body>
-    <!--Navbar-->
-    <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-      >
-      <div class="overlay-content">
-        <a>About Us</a>
-        <a>Services</a>
-        <a>Contact Us</a>
-        <a>Blog</a>
-        <a>FAQS</a>
-      </div>
-    </div>
-
-    <div class="navbar">
-      <div class="navbarleft">
-        <h1>h</h1>
-      </div>
-      <div class="navbarcenter">
-        <a>Home</a>
-        <a>About</a>
-        <button class="dropbtn" onclick="myFunction()">Courses </button>
-        <div class="dropdown-content" id="myDropdown">
-          <a href="#">HTML</a>
-          <a href="#">CSS</a>
-          <a href="#">Javascript</a>
-          <a href="#">PHP</a>
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Young Programmers</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Modern+Antiqua&display=swap" rel="stylesheet">
+    </head>
+        <body>
+            <div id="header-links">
+                <a href="#" class="header-link">Home</a>
+                <a href="#" class="header-link">About</a>
+                <a href="#" class="header-link">Course</a>
+                <a href="#" class="header-link">Videos</a>
+                <a href="register.html" class="register">Register Here</a>
+            </div>
+            <h1>Learn To Code With <br>Young Programmers</h1>
+            <p class="quote-1">A learning platform to help young programmers navigate through programming with ease as <br> there are lots of videos, courses with certificates and many other resources to guide newbies <br>through their journey in tech.</p>
+            <a  href="#" id="get-started">Get Started</a>
+            <div class="section-1">
+            </div>
+            <h2 class="what-we-do">What Do We Do ?</h2>
+            <p class="quote-2">The Young Programmers is a platform set to bring in young developers who are willing to <br>learn about coding and those that need guidance during their journey. We want to hold the <br>hands of youngsters and lead them through every obstacles and make sure they conquer the <br>obstacles with courage and determination.</p>
+            <h3 class="section-2">COURSES TO LEARN (with certificates)</h3>
+            <h4 class="section-3">WEB DEVELOPMENT</h4>
+            <p class="quote-3"> A web development with HTML, JAVASCRIPT, CSS and<br> PHP</p>
+            <p class="quote-4">Course Objectives:</p>
+            <div class="container">
+             <img src="images/certificate Small.png" class="certificate">
+                <ul>
+                    <li class="obj-1">By the end of this course, learners will be able to:</li>
+                    <li>Understand the basics of web development</li>
+                    <li>Create static web pages using HTML and CSS</li>
+                    <li>Add interactivity to web pages using Javascript</li>
+                    <li>Build dynamic web applications using Javascript</li>
+            </ul>
         </div>
-        <a>Contact Us</a>
+        <div class="container-2">
+        </div>
+        <div class="wrap">
+            <div class="project"> 
+              <a href="#" target="_blank" class="project-link-html html"></a>
+              <a class="learn-html" href="#">Learn HTML</a>
+              <span class="project-title">HTML</span>
+              <p class="html-quote">HTML is a markup language for<br> building web pages.</p>
+            </div>
+            <div class="project">
+              <a href="#" target="_blank" class="project-link css"></a>
+              <span class="project-title">CSS</span>
+              <p class="css-quote">CSS is a programming language for <br>styling web pages.</p>
+            </div>
+            <a class="learn-css" href="#">Learn CSS</a>
+            <div class="wrap">
+              <div class="project"> 
+                <a href="#" target="_blank" class="project-link javascript"></a>
+                <span class="project-title">JAVASCRIPT</span>
+                <p class="javascript-quote">The language for programming<br>web pages.</p>
+              </div>
+              <div class="project">
+                <a href="" target="_blank" class="project-link php"></a>
+                <span class="project-title">PHP</span>
+                <p class="javascript-quote">A web server programming language <br>to interact with the database.</p>
+              </div>
+            </div>  
+          </div>  
+            <a class="learn-javascript" href="#">Learn JSS</a>
+            <a class="learn-php" href="#">Learn PHP</a>
+          <h5>Tutorial videos</h5>
+          <div class="video-container">
+            <video controls class="control-1">
+                <source src="your_video_file.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay-image">
+              <img src="images/pause-logo-removebg-preview.png" class="pause-logo">
+            </div>
+        </div>
+        <div class="video-container">
+          <video controls class="control-2">
+              <source src="your_video_file.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <div class="overlay-image-2">
+            <img src="images/pause-logo-removebg-preview.png" class="pause-logo">
+          </div>
+        </div>">
       </div>
-      <div class="navbarright">
-        <div class="jointheteamBtn">Join the Team</div>
-        <span onclick="openNav()">&#9776;</span>
-      </div>
-    </div>
-        <!--end of Navbar-->
-
-            <!--section-->
-<section>
-    <h1 style="margin-top: 150px;">LEARN TO CODE WITH</h1>
-    <h1 style="color: #5C10BC; text-shadow: 0px 4px 6px #5C10BC;">YOUNG PROGRAMMERS</h1>
-    <p>A learning platform to help young programmers navigate through programming with ease as there are lots of videos,<br> courses with certificates and many other resources to guide newbies through their journey in tech.</p>
-<center><div class="getstartedbtn">Get Started</div></center>
-  </section>
-                <!--end of section-->
-    <script src="script.js"></script>
-  </body>
+      <div class="container-3">
+      <p class="quote-5">You can now  hire young programmers to develop your websites.</p>
+      <a class="hire-now" href="#">Hire Now</a>
+     </div>
+    <h6 class="section-4">Contact Us</h6>
+    <p class="number">+234 904-4287-253</p>
+    <p class="number">+234 704-9418-642</p>
+    <p class="quote-6">Copyright 2023-2024. All rights Reserved</p>
+</body>
 </html>
