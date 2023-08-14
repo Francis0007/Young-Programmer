@@ -151,27 +151,25 @@ a{
     .section{
         height: 600px;
     }
-} {
-    
-}
+} 
 .sectionleft{
     color: white;
     float: left;
     text-align: left;
-    margin-top: 170px;
+    margin-top: 130px;
     width: 600px;   
 }
 @media screen and (max-width: 767px) {
     .sectionleft{
         margin-left: 10px;
         width: 300px;
-        margin-top: 150px;
+        margin-top: 120px;
     }
 }
 .sectionleft h1{
     font-size: 50px;
     width: 650px;
-    line-height: 40px;
+    line-height: 70px;
 }
 @media screen and (max-width: 767px) {
     .sectionleft h1{
@@ -206,19 +204,36 @@ a{
     font-size: 30px;
     margin-top: 30px;
 }
-
+.quick-message{
+    top: 85%;
+    left: 90%;
+    position: fixed;
+    z-index: 1;
+}
+@media screen and (max-width: 767px) {
+    .quick-message{
+        left: 80%;
+    }
+}
 #get-started {
     color: #FFFFFF;
     background-color: #5C10BC;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 5px;
-    padding: 10px; 
+    padding-left: 40px; 
+    padding-right: 40px;
     text-decoration: none;
     margin-top: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 @media screen and (max-width: 767px) {
     #get-started{
         margin-left: -30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px; 
+        padding-right: 40px;
     }
 }
 .section-1 {
